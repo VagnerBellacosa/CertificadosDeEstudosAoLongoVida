@@ -1,0 +1,53 @@
+
+html, body, #container {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    }
+	
+.footer {
+    position: fixed;
+    left: 0;
+    margin-top: 2rem;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+	
+	
+
+.box {
+   display: flex;
+}
+
+.one {
+   flex: 1 1 auto;
+}
+
+.two {
+   flex: 1 1 auto;
+}
+
+.three {
+   flex: 1 1 auto;
+}
+	  
+.boxTitle {
+	display: flex;
+	align-items: flex-start;
+}
+		  
+ .entidade {
+   flex: 1;
+ }
+
+ .curso {
+   flex: 1;
+ }
+
+ .data {
+   flex: 1;
+ }	  
